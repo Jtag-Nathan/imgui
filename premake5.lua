@@ -33,6 +33,7 @@ project "ImGui"
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
+        buildoptions "/MTd"
 
 	filter "configurations:Release"
 		runtime "Release"
