@@ -38,6 +38,7 @@ project "ImGui"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
+		buildoptions "/MT"
 
     filter "configurations:Dist"
 		runtime "Release"
